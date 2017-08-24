@@ -12,7 +12,7 @@
 2) Gather all block offsets , fetch the blocks
 3) Process the blocks to get actual records as per the type of block ( wiggle or bigbed )
 
-# Code explanation
+## Code explanation
 
 ## Initialization 
 
