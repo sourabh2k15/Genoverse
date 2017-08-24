@@ -1,4 +1,4 @@
-# High level explanation of the Bigwig / Bigbed parsing process: 
+## High level explanation of the Bigwig / Bigbed parsing process: 
 
 ## Initialization
 
