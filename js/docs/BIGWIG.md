@@ -7,7 +7,7 @@ Important Resources :
 
 ## Basic Working :
 
-So in order to browse a huge dataset these file formats had been developed as self contained databases. They internally use 
+In order to browse a huge genome dataset these file formats had been developed as self contained databases. They internally use 
 B+ trees and range trees to efficiently retreve data for the requested region. The magic of this format lies in the fact that 
 no matter where the data you requested be it will take no more than 4-6 reads to retrieve it. When the file is on disk it doesn't 
 matter much but when it is being served over a network this makes a huge difference and also enables us to view large datasets 
