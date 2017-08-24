@@ -20,7 +20,7 @@ form  `[ baseStart, baseEnd, score ]` , this is our actual data record, many suc
 in the file and file offsets to these blocks are contained as leaves of the range tree. So every node of the range tree has a base range 
 and a chromosome. We keep comparing our desired range for an overlap with the node and if found go deeper into the node eventually landing 
 at the leaves which tell us at which locations in the file our data blocks are located. You guessed it right, its a DFS ! but with a small 
-twist. So we know our desired ranges lies deeper in this node how do we traverse its children ? every node has dataOffsets for its kids. So 
+twist. So we know our desired ranges lie deeper in this node how do we traverse its children ? every node has dataOffsets for its kids. So 
 the range tree is actually dispersed over the entire file but we can know the locations for the desired nodes. 
 
 Wait a sec then what is the B+ tree for ? well to save space in the range tree they assign unique numerical id to every chromosome so the 
